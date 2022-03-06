@@ -1,0 +1,426 @@
+@media (max-width:576px) {
+    .shop-acessories{
+        display: none;
+    }
+    .women-sh-th{
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .filter{
+        width: 90%;
+        .filter-box{
+            .filter-right{
+                .ri{
+                    display: none;
+                }
+                .res-ri{
+                    visibility: visible;
+                    i{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 5px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .sh-images{
+        width: 95%;
+        .ssh-img{
+            .shop-images{
+                .shop-box{
+                    .sh-img-box{
+                        .icon-ht{
+                            display: none;
+                        }
+                        .quick-v{
+                            display: none;
+                        }
+                        .quick-sh{
+                            display: none;
+                        }
+                        .size{
+                            display: none;
+                        }
+                        .size3{
+                            display: none;
+                        }
+                        .new{
+                            top: 10%;
+                            left: 82%;
+                            padding: 10px 5px;
+                            font-size: 10px;
+                        }
+                        .pinkm{
+                            top: 10%;
+                            left: 82%;
+                            padding: 10px 5px;
+                            font-size: 10px;
+                        }
+                        .res-icons{
+                            visibility: visible;
+                        }
+                    }
+                    h6{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .free-shipping{
+        width: 95%;
+        .free-sh{
+            .support{
+                margin: 12px 0;
+                .return-text{
+                    p{
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:576px) and (max-width:768px){
+    .shop-acessories{
+        display: none;
+    }
+    .women-sh-th{
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .filter{
+        width: 90%;
+        .filter-box{
+            .filter-right{
+                .ri{
+                    display: none;
+                }
+                .res-ri{
+                    visibility: visible;
+                    i{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 5px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .sh-images{
+        width: 95%;
+        .ssh-img{
+            .shop-images{
+                .shop-box{
+                    .sh-img-box{
+                        .icon-ht{
+                            display: none;
+                        }
+                        .quick-v{
+                            display: none;
+                        }
+                        .quick-sh{
+                            display: none;
+                        }
+                        .size{
+                            display: none;
+                        }
+                        .size3{
+                            display: none;
+                        }
+                        .new{
+                            top: 10%;
+                            left: 82%;
+                            padding: 10px 5px;
+                            font-size: 10px;
+                        }
+                        .pinkm{
+                            top: 10%;
+                            left: 82%;
+                            padding: 10px 5px;
+                            font-size: 10px;
+                        }
+                        .res-icons{
+                            visibility: visible;
+                        }
+                    }
+                    h6{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .free-shipping{
+        .free-sh{
+            width: 100%;
+            .support{
+                margin: 12px 0;
+                .return-text{
+                    p{
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+     .shop-acessories{
+        display: none;
+    }
+    .women-sh-th{
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .filter{
+        width: 90%;
+        .filter-box{
+            margin-top: 20px;
+        }
+    }
+    .sh-images{
+        width: 95%;
+        .ssh-img{
+            margin-top: 0px;
+            .shop-images{
+                .shop-box{
+                    .sh-img-box{
+                        .icon-ht{
+                            display: none;
+                        }
+                        .quick-v{
+                            display: none;
+                        }
+                        .quick-sh{
+                            display: none;
+                        }
+                        .size{
+                            display: none;
+                        }
+                        .size3{
+                            display: none;
+                        }
+                        .new{
+                            top: 10%;
+                            left: 82%;
+                            padding: 10px 5px;
+                            font-size: 7px;
+                        }
+                        .pinkm{
+                            top: 10%;
+                            left: 82%;
+                            padding: 10px 5px;
+                            font-size: 7px;
+                        }
+                        .res-icons{
+                            visibility: visible;
+                        }
+                    }
+                    h6{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .next1234{
+        margin-top: 50px;
+    }
+    .free-shipping{
+        .free-sh{
+            width: 100%;
+            .support{
+                margin: 12px 0;
+                .return-text{
+                    p{
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    .shop-acessories{
+        .shop-hd{
+            width: 75%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .women-sh-th{
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .filter{
+        width: 90%;
+        .filter-box{
+            margin-top: 20px;
+        }
+    }
+    .sh-images{
+        width: 95%;
+        .ssh-img{
+            margin-top: 0px;
+            .shop-images{
+                .shop-box{
+                    .sh-img-box{
+                        .icon-ht{
+                            display: none;
+                        }
+                        .quick-v{
+                            display: none;
+                        }
+                        .quick-sh{
+                            display: none;
+                        }
+                        .size{
+                            display: none;
+                        }
+                        .size3{
+                            display: none;
+                        }
+                        .new{
+                            top: 10%;
+                            left: 82%;
+                            padding: 13px 8px;
+                            font-size: 12px;
+                        }
+                        .pinkm{
+                            top: 10%;
+                            left: 82%;
+                            padding: 14px 8px;
+                            font-size: 12px;
+                        }
+                        .res-icons{
+                            visibility: visible;
+                        }
+                    }
+                    h6{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .next1234{
+        margin-top: 50px;
+    }
+    .free-shipping{
+        .free-sh{
+            width: 100%;
+            .support{
+                margin: 12px 0;
+                .return-text{
+                    p{
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1400px){
+    .shop-acessories{
+        .shop-hd{
+            width: 58%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .women-sh-th{
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .filter{
+        width: 90%;
+        .filter-box{
+            margin-top: 20px;
+        }
+    }
+    .sh-images{
+        width: 95%;
+        .ssh-img{
+            margin-top: 0px;
+            .shop-images{
+                .shop-box{
+                    .sh-img-box{
+                        .icon-ht{
+                            display: none;
+                        }
+                        .quick-v{
+                            display: none;
+                        }
+                        .quick-sh{
+                            display: none;
+                        }
+                        .size{
+                            display: none;
+                        }
+                        .size3{
+                            display: none;
+                        }
+                        .new{
+                            top: 10%;
+                            left: 82%;
+                            padding: 13px 8px;
+                            font-size: 12px;
+                        }
+                        .pinkm{
+                            top: 10%;
+                            left: 82%;
+                            padding: 14px 8px;
+                            font-size: 12px;
+                        }
+                        .res-icons{
+                            visibility: visible;
+                        }
+                    }
+                    h6{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .next1234{
+        margin-top: 50px;
+    }
+    .free-shipping{
+        .free-sh{
+            width: 100%;
+            .support{
+                margin: 12px 0;
+                .return-text{
+                    p{
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

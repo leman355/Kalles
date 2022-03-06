@@ -1,0 +1,999 @@
+@import url("https://fonts.googleapis.com/css/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.shop-acessories {
+  padding: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.shop-acessories .shop-hd {
+  width: 50%;
+  margin: auto;
+}
+
+.shop-acessories .shop-hd ul li a {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #878787;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.shop-acessories .shop-hd ul li a:hover {
+  color: #53C9DA;
+}
+
+.women-sh-th {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  background-image: url(https://cdn.shopify.com/s/files/1/0332/6420/5963/collections/jeans-828693_1920_1728x.jpg?v=1586521480);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 130px;
+  z-index: 1;
+}
+
+.women-sh-th::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.women-sh-th .throught {
+  padding-top: 35px;
+  z-index: 1;
+}
+
+.women-sh-th .throught h1 {
+  font-size: 20px;
+}
+
+.women-sh-th .throught p {
+  font-size: 15px;
+  color: #EDEDED;
+  margin-top: 3px;
+}
+
+.filter {
+  font-family: 'Poppins', sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+.filter .filter-box {
+  margin-top: 40px;
+  color: #878787;
+  font-size: 17px;
+}
+
+.filter .filter-box .filter-left {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.filter .filter-box .filter-left:hover {
+  color: #53C9DA;
+}
+
+.filter .filter-box .filter-left i {
+  margin-right: 5px;
+}
+
+.filter .filter-box .filter-right {
+  cursor: pointer;
+}
+
+.filter .filter-box .filter-right .res-ri {
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.filter .filter-box .filter-right .res-ri:hover {
+  color: #53C9DA;
+}
+
+.filter .filter-box .filter-right .ri {
+  border: 1px solid #878787;
+  border-radius: 5mm;
+  padding: 10px 15px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.filter .filter-box .filter-right .ri i {
+  margin-left: 80px;
+}
+
+.filter .filter-box .filter-right .ri:hover {
+  color: #53C9DA;
+}
+
+.sh-images {
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.sh-images .ssh-img .shop-images .shop-box h6 {
+  margin-top: 15px;
+  font-size: 16px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box h6:hover {
+  color: #56cfe1;
+}
+
+.sh-images .ssh-img .shop-images .shop-box p {
+  margin-top: 7px;
+  font-size: 15px;
+  color: #878787;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .sh-img-box {
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .sh-img-box img {
+  vertical-align: middle;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .sh-img-box .shop-oooverlay .sh-ovl {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .sh-img-box .shop-oooverlay .sh-ovl:hover {
+  opacity: 1;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.sh-images .ssh-img .shop-images .shop-box .sh-img-box .shop-oooverlay .sh-ovl .shop-overlay2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.13);
+  z-index: 2;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .sh-img-box .shop-oooverlay .sh-ovl .shop-overlay2:hover {
+  opacity: 1;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .icon-ht {
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .icon-ht i {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 3;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .icon-ht:hover {
+  color: #56cfe1;
+}
+
+.sh-images .ssh-img .shop-images .shop-box:hover a {
+  opacity: 5;
+}
+
+.sh-images .ssh-img .shop-images .shop-box:hover .shop-oooverlay {
+  opacity: 5;
+}
+
+.sh-images .ssh-img .shop-images .shop-box:hover .shop-oooverlay .sh-ovl {
+  opacity: 5;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.sh-images .ssh-img .shop-images .shop-box:hover .shop-oooverlay .sh-ovl .shop-overlay2 {
+  opacity: 5;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-v {
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transform: translate(-45%, -45%);
+          transform: translate(-45%, -45%);
+  z-index: 3;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 17px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 5mm;
+  padding: 10px 22px;
+  overflow: hidden;
+  color: #878787;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-v::before {
+  font: var(--fa-font-solid);
+  content: "\f06e";
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  height: 0%;
+  background-color: #222222;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-v:hover {
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-v:hover::before {
+  top: 0%;
+  height: 100%;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-sh {
+  opacity: 0;
+  position: absolute;
+  top: 62%;
+  left: 53%;
+  -webkit-transform: translate(-62%, -53%);
+          transform: translate(-62%, -53%);
+  z-index: 3;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 17px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 5mm;
+  padding: 10px 22px;
+  overflow: hidden;
+  color: #878787;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-sh::before {
+  font: var(--fa-font-solid);
+  content: "\f07a";
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  height: 0%;
+  background-color: black;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .quick-sh:hover::before {
+  top: 0%;
+  height: 100%;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .res-icons {
+  position: absolute;
+  top: 90%;
+  left: 94%;
+  -webkit-transform: translate(-90%, -94%);
+          transform: translate(-90%, -94%);
+  z-index: 3;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 5mm;
+  overflow: hidden;
+  color: #222222;
+  visibility: hidden;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .res-icons i {
+  padding: 7px;
+  border-radius: 100%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .res-icons i:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .size {
+  opacity: 0;
+  position: absolute;
+  top: 95%;
+  left: 75%;
+  -webkit-transform: translate(-95%, -75%);
+          transform: translate(-95%, -75%);
+  z-index: 3;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 17px;
+  text-decoration: none;
+  border-radius: 5mm;
+  padding: 10px 22px;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box:hover .size {
+  opacity: 1;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .size3 {
+  opacity: 0;
+  position: absolute;
+  top: 95%;
+  left: 63%;
+  -webkit-transform: translate(-95%, -63%);
+          transform: translate(-95%, -63%);
+  z-index: 3;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 17px;
+  text-decoration: none;
+  border-radius: 5mm;
+  padding: 10px 22px;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box:hover .size3 {
+  opacity: 1;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .new {
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  -webkit-transform: translate(-15%, -75%);
+          transform: translate(-15%, -75%);
+  z-index: 3;
+  font-size: 17px;
+  border-radius: 100%;
+  padding: 20px 13px;
+  background-color: #109533;
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .pinkm {
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  -webkit-transform: translate(-15%, -75%);
+          transform: translate(-15%, -75%);
+  z-index: 3;
+  font-size: 17px;
+  border-radius: 100%;
+  padding: 22px 13px;
+  background-color: #ff4e00;
+  color: #ffffff;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .color {
+  width: 100px;
+  margin-bottom: 50px;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colors .pink {
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colors .pink:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colors .black {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colors .black:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .black {
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .black:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .blue {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #56cfe1;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .blue:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .white-1 {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 0.1px solid #222222;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .white-1:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .white-2 {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 0.1px solid #222222;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .white-2:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .grey {
+  width: 20px;
+  height: 20px;
+  background-color: #878787;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .grey:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .pinkk {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .pinkk:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .blackk {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #222222;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .blackk:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .greyy {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #878787;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .greyy:hover {
+  border: 2px solid #000000;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .yellowgreen {
+  width: 20px;
+  height: 20px;
+  background-color: yellowgreen;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.sh-images .ssh-img .shop-images .shop-box .colorss .yellowgreen:hover {
+  border: 2px solid #000000;
+}
+
+.next1234 {
+  font-family: 'Poppins', sans-serif;
+  border-top: 1px solid #878787;
+}
+
+.next1234 p {
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.next1234 p:hover {
+  color: #ff4e00;
+}
+
+.free-shipping {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 100px;
+}
+
+.free-shipping .free-sh {
+  width: 80%;
+  margin: auto;
+}
+
+.free-shipping .free-sh .support .return {
+  font-size: 30px;
+  color: #878787;
+}
+
+.free-shipping .free-sh .support .return-text h6 {
+  font-size: 16px;
+}
+
+.free-shipping .free-sh .support .return-text p {
+  margin-top: 7px;
+  font-size: 15px;
+  color: #878787;
+  font-weight: 520;
+}
+
+@media (max-width: 576px) {
+  .shop-acessories {
+    display: none;
+  }
+  .women-sh-th p {
+    width: 90%;
+    margin: auto;
+  }
+  .filter {
+    width: 90%;
+  }
+  .filter .filter-box .filter-right .ri {
+    display: none;
+  }
+  .filter .filter-box .filter-right .res-ri {
+    visibility: visible;
+  }
+  .filter .filter-box .filter-right .res-ri i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .sh-images {
+    width: 95%;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .icon-ht {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-v {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-sh {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size3 {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .new {
+    top: 10%;
+    left: 82%;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .pinkm {
+    top: 10%;
+    left: 82%;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .res-icons {
+    visibility: visible;
+  }
+  .sh-images .ssh-img .shop-images .shop-box h6 {
+    font-size: 15px;
+  }
+  .free-shipping {
+    width: 95%;
+  }
+  .free-shipping .free-sh .support {
+    margin: 12px 0;
+  }
+  .free-shipping .free-sh .support .return-text p {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .shop-acessories {
+    display: none;
+  }
+  .women-sh-th p {
+    width: 90%;
+    margin: auto;
+  }
+  .filter {
+    width: 90%;
+  }
+  .filter .filter-box .filter-right .ri {
+    display: none;
+  }
+  .filter .filter-box .filter-right .res-ri {
+    visibility: visible;
+  }
+  .filter .filter-box .filter-right .res-ri i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .sh-images {
+    width: 95%;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .icon-ht {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-v {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-sh {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size3 {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .new {
+    top: 10%;
+    left: 82%;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .pinkm {
+    top: 10%;
+    left: 82%;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .res-icons {
+    visibility: visible;
+  }
+  .sh-images .ssh-img .shop-images .shop-box h6 {
+    font-size: 15px;
+  }
+  .free-shipping .free-sh {
+    width: 100%;
+  }
+  .free-shipping .free-sh .support {
+    margin: 12px 0;
+  }
+  .free-shipping .free-sh .support .return-text p {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .shop-acessories {
+    display: none;
+  }
+  .women-sh-th p {
+    width: 90%;
+    margin: auto;
+  }
+  .filter {
+    width: 90%;
+  }
+  .filter .filter-box {
+    margin-top: 20px;
+  }
+  .sh-images {
+    width: 95%;
+  }
+  .sh-images .ssh-img {
+    margin-top: 0px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .icon-ht {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-v {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-sh {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size3 {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .new {
+    top: 10%;
+    left: 82%;
+    padding: 10px 5px;
+    font-size: 7px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .pinkm {
+    top: 10%;
+    left: 82%;
+    padding: 10px 5px;
+    font-size: 7px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .res-icons {
+    visibility: visible;
+  }
+  .sh-images .ssh-img .shop-images .shop-box h6 {
+    font-size: 15px;
+  }
+  .next1234 {
+    margin-top: 50px;
+  }
+  .free-shipping .free-sh {
+    width: 100%;
+  }
+  .free-shipping .free-sh .support {
+    margin: 12px 0;
+  }
+  .free-shipping .free-sh .support .return-text p {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .shop-acessories .shop-hd {
+    width: 75%;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .women-sh-th p {
+    width: 90%;
+    margin: auto;
+  }
+  .filter {
+    width: 90%;
+  }
+  .filter .filter-box {
+    margin-top: 20px;
+  }
+  .sh-images {
+    width: 95%;
+  }
+  .sh-images .ssh-img {
+    margin-top: 0px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .icon-ht {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-v {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-sh {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size3 {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .new {
+    top: 10%;
+    left: 82%;
+    padding: 13px 8px;
+    font-size: 12px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .pinkm {
+    top: 10%;
+    left: 82%;
+    padding: 14px 8px;
+    font-size: 12px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .res-icons {
+    visibility: visible;
+  }
+  .sh-images .ssh-img .shop-images .shop-box h6 {
+    font-size: 15px;
+  }
+  .next1234 {
+    margin-top: 50px;
+  }
+  .free-shipping .free-sh {
+    width: 100%;
+  }
+  .free-shipping .free-sh .support {
+    margin: 12px 0;
+  }
+  .free-shipping .free-sh .support .return-text p {
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .shop-acessories .shop-hd {
+    width: 58%;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .women-sh-th p {
+    width: 90%;
+    margin: auto;
+  }
+  .filter {
+    width: 90%;
+  }
+  .filter .filter-box {
+    margin-top: 20px;
+  }
+  .sh-images {
+    width: 95%;
+  }
+  .sh-images .ssh-img {
+    margin-top: 0px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .icon-ht {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-v {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .quick-sh {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .size3 {
+    display: none;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .new {
+    top: 10%;
+    left: 82%;
+    padding: 13px 8px;
+    font-size: 12px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .pinkm {
+    top: 10%;
+    left: 82%;
+    padding: 14px 8px;
+    font-size: 12px;
+  }
+  .sh-images .ssh-img .shop-images .shop-box .sh-img-box .res-icons {
+    visibility: visible;
+  }
+  .sh-images .ssh-img .shop-images .shop-box h6 {
+    font-size: 15px;
+  }
+  .next1234 {
+    margin-top: 50px;
+  }
+  .free-shipping .free-sh {
+    width: 100%;
+  }
+  .free-shipping .free-sh .support {
+    margin: 12px 0;
+  }
+  .free-shipping .free-sh .support .return-text p {
+    margin-top: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

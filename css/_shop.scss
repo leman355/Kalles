@@ -1,0 +1,562 @@
+@import '_variable.scss';
+
+
+
+.shop-acessories{
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    .shop-hd{
+        width: 50%;
+        margin: auto;
+        ul{
+            li{
+                a{
+                    padding: 10px;
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: $grey-color;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        color:#53C9DA;
+                    }
+                }
+            }
+        }
+    }
+}
+.women-sh-th{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    color: $white-color;
+    background-image: url(https://cdn.shopify.com/s/files/1/0332/6420/5963/collections/jeans-828693_1920_1728x.jpg?v=1586521480);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 130px;
+    z-index: 1;
+    &::before{
+        z-index: -1;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .throught{
+        padding-top: 35px;
+        z-index: 1;
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+            color: #EDEDED;
+            margin-top: 3px;
+        }
+    }    
+}
+.filter{
+    font-family: 'Poppins', sans-serif;
+    width: 75%;
+    margin: auto;
+    .filter-box{
+        margin-top: 40px;
+        color: $grey-color;
+        font-size: 17px;
+        .filter-left{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color:#53C9DA;
+            }
+            i{
+                margin-right: 5px;
+            }
+        }
+        .filter-right{
+            cursor: pointer;
+            .res-ri{
+                visibility: hidden;
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    color:#53C9DA;
+                }
+            }
+            .ri{
+                border: 1px solid $grey-color;
+                border-radius: 5mm;
+                padding: 10px 15px;
+                transition: 0.3s ease-in-out;
+                i{
+                    margin-left: 80px;
+                }
+                &:hover{
+                    color:#53C9DA;
+                }
+            }
+        }
+    }
+}
+.sh-images{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+    .ssh-img{
+        .shop-images{
+            .shop-box{
+                h6{
+                    margin-top: 15px;
+                    font-size: 16px;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        color: $light-blue-color;
+                    }
+                }
+                p{
+                    margin-top: 7px;
+                    font-size: 15px;
+                    color: $grey-color;
+                }
+                .sh-img-box{
+                    margin: 20px 0;
+                    position: relative;
+                    overflow: hidden;
+                    img{
+                        vertical-align: middle;
+                    }
+                    .shop-oooverlay{
+                        .sh-ovl{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            opacity: 0;
+                            transition: 0.3s ease-in-out;
+                            z-index: 2;   
+                            &:hover{
+                                opacity: 1;
+                                transition: 1s ease-in-out;
+                                transform: scale(1.2);
+                            }
+                            .shop-overlay2{
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                top: 0;
+                                left: 0;
+                                opacity: 0;
+                                background-color: rgba(0, 0, 0, 0.13);
+                                z-index: 2;
+                                &:hover{
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .icon-ht{
+                    opacity: 0;
+                    transition: 0.3s ease-in-out;
+                    font-size: 20px;
+                    color: $white-color;
+                    i{
+                        position: absolute;
+                        top: 15px;
+                        left: 15px;
+                        z-index: 3;
+                    }
+                    &:hover{
+                        color: $light-blue-color;
+                    }
+                }
+                &:hover{
+                    a{
+                        opacity: 5;
+                    }
+                    .shop-oooverlay{
+                        opacity: 5;
+                        .sh-ovl{
+                            opacity: 5;
+                            transform: scale(1.2);
+                            .shop-overlay2{
+                                opacity: 5;
+                            }
+                        }
+                    }
+                }
+                .quick-v{
+                    opacity: 0;
+                    position: absolute;
+                    top: 45%;
+                    left: 45%;
+                    transform: translate(-45%, -45%);
+                    z-index: 3;
+                    transition: 0.3s ease-in-out;
+                    font-size: 17px;
+                    text-decoration: none;
+                    background-color: $white-color;
+                    border-radius: 5mm;
+                    padding: 10px 22px;
+                    overflow: hidden;
+                    color: $grey-color;
+                    &::before{      
+                        font: var(--fa-font-solid);
+                        content: "\f06e";
+                        color: $white-color;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;   
+                        position: absolute;
+                        top: 100%;
+                        left: 0%;
+                        width: 100%;
+                        height: 0%;
+                        background-color: $dark-color;
+                        transition: 0.3s ease-in;
+                    }
+                    &:hover{
+                        color: $white-color;
+                        &::before{
+                            // z-index: -1;
+                            top: 0%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .quick-sh{
+                    opacity: 0;
+                    position: absolute;
+                    top: 62%;
+                    left: 53%;
+                    transform: translate(-62%, -53%);
+                    z-index: 3;
+                    transition: 0.3s ease-in-out;
+                    font-size: 17px;
+                    text-decoration: none;
+                    background-color: $white-color;
+                    border-radius: 5mm;
+                    padding: 10px 22px;
+                    overflow: hidden;
+                    color: $grey-color;
+                    &::before{        
+                        font: var(--fa-font-solid);
+                        content: "\f07a";
+                        color: $white-color;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 100%;
+                        left: 0%;
+                        width: 100%;
+                        height: 0%;
+                        background-color: black;
+                        transition: 0.3s ease-in;
+                    }
+                    &:hover{
+                        // color: $white-color;
+                        &::before{
+                            // z-index: -1;
+                            top: 0%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .res-icons{
+                    position: absolute;
+                    top: 90%;
+                    left: 94%;
+                    transform: translate(-90%, -94%);
+                    z-index: 3;
+                    transition: 0.3s ease-in-out;
+                    text-decoration: none;
+                    background-color: $white-color;
+                    border-radius: 5mm;
+                    overflow: hidden;
+                    color: $dark-color;
+                    i{
+                        padding: 7px;
+                        border-radius: 100%;
+                        transition: 0.3s ease-in-out;
+                        &:hover{
+                            background-color: $dark-color;
+                            color: $white-color;
+                        }
+                    }
+                    visibility: hidden;
+                }
+                .size{
+                    opacity: 0;
+                    position: absolute;
+                    top: 95%;
+                    left: 75%;
+                    transform: translate(-95%, -75%);
+                    z-index: 3;
+                    transition: 0.3s ease-in-out;
+                    font-size: 17px;
+                    text-decoration: none;
+                    border-radius: 5mm;
+                    padding: 10px 22px;
+                    overflow: hidden;
+                    color: $white-color;
+                }
+                &:hover{
+                    .size{
+                        opacity: 1;
+                    }
+                }
+                .size3{
+                    opacity: 0;
+                    position: absolute;
+                    top: 95%;
+                    left: 63%;
+                    transform: translate(-95%, -63%);
+                    z-index: 3;
+                    transition: 0.3s ease-in-out;
+                    font-size: 17px;
+                    text-decoration: none;
+                    border-radius: 5mm;
+                    padding: 10px 22px;
+                    overflow: hidden;
+                    color: $white-color;
+                }
+                &:hover{
+                    .size3{
+                        opacity: 1;
+                    }
+                }
+                .new{
+                    position: absolute;
+                    top: 15%;
+                    left: 75%;
+                    transform: translate(-15%, -75%);
+                    z-index: 3;
+                    font-size: 17px;
+                    border-radius: 100%;
+                    padding: 20px 13px;
+                    background-color: $green-color;
+                    color: $white-color;
+                }
+                .pinkm{
+                    position: absolute;
+                    top: 15%;
+                    left: 75%;
+                    transform: translate(-15%, -75%);
+                    z-index: 3;
+                    font-size: 17px;
+                    border-radius: 100%;
+                    padding: 22px 13px;
+                    background-color: $orange-color;
+                    color: $white-color;
+                }
+                .color{
+                    width: 100px;
+                    margin-bottom: 50px;
+                }
+                .colors{
+                    .pink{
+                        width: 20px;
+                        height: 20px;
+                        background-color: pink;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .black{
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        background-color: $black-color;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                }
+                .colorss{
+                    .black{
+                        width: 20px;
+                        height: 20px;
+                        background-color: $black-color;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .blue{
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        background-color: $light-blue-color;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .white-1{
+                        width: 20px;
+                        height: 20px;
+                        background-color: $white-color;
+                        border-radius: 100%;
+                        border: 0.1px solid $dark-color;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .white-2{
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        background-color: $white-color;
+                        border-radius: 100%;
+                        border: 0.1px solid $dark-color;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .grey{
+                        width: 20px;
+                        height: 20px;
+                        background-color: $grey-color;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .pinkk{
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        background-color: pink;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .blackk{
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        background-color: $dark-color;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .greyy{
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        background-color: $grey-color;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                    .yellowgreen{
+                        width: 20px;
+                        height: 20px;
+                        background-color: yellowgreen;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        transition: 0.1s ease-out;
+                        &:hover{
+                            border:2px solid $black-color;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+.next1234{
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid $grey-color;
+    p{
+        margin: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: $orange-color;
+        }
+    }
+}
+.free-shipping{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    .free-sh{
+        width: 80%;
+        margin: auto;
+        .support{
+                .return{
+                    font-size: 30px;
+                    color: $grey-color;
+                }
+                .return-text{
+                    h6{
+                        font-size: 16px;
+                    }
+                    p{
+                        margin-top: 7px;
+                        font-size: 15px;
+                        color: $grey-color;
+                        font-weight: 520;
+                    }
+                }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "_responsive";
